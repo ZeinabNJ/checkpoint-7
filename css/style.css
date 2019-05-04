@@ -1,0 +1,93 @@
+#cover {
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 2px 17px -4px rgba(41, 41, 41, 1);
+}
+
+#avatar {
+    height: 208px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+    box-shadow: 0px 2px 17px -4px rgba(41, 41, 41, 1);
+}
+
+#images {
+    height: 300px;
+    width: 1536px;
+}
+
+#name {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #444;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#name:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#about {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.heading {
+    color: #2196F3;
+    font-size: 42px;
+    font-family: 'Merriweather', serif; 
+}
+
+.text {
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    Font-size: 16.8px;
+    display: inline-block;
+    align-content: center;
+    width: 100%;   
+}    
+.social{
+    color: #2196F3;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 20px;   
+}
+
+i {
+    margin: 5px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+}
+.fa-5x{
+    padding: 50px;
+}
+.fa-5x:hover{
+    color: #2196F3;
+    transition: 1s;
+}
+.fa-2x:hover{
+    color: #626262;
+}
+.ph{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 13px 12px 17px -12px rgba(0,0,0,0.75);
+    height: 234px;
+    width: 359px;
+    padding-left: 20px;
+}
+
